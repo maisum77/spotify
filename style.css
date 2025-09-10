@@ -1,6 +1,16 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
+    font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
 }
 
 /* body{
@@ -10,15 +20,45 @@
 
 .left{
     width: 25vw;
-    padding: 18px;
+    padding: 10px;
+   
 }
 .right{
     width: 75vw;
+     
 }
+
 
 .home ul li {
     list-style: none;
     display: flex;
     gap: 10px;
+    padding-top: 13px;
 
+}
+.heading {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    padding-top: 13px;
+    align-items: center;
+}
+.library{
+    min-height: 80vh;
+    position: relative;
+    
+}
+
+.footer{
+    display: flex;
+    font-size: 10px;
+    color: grey;
+    gap: 13px;
+    position: absolute;
+    bottom: 0;
+}
+.footer a{
+    text-decoration: none;
+    color: grey;
+    padding: 0 5px;
 }
