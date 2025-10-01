@@ -62,3 +62,43 @@
     color: grey;
     padding: 0 5px;
 }
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.header *{
+    padding: 8px;
+}
+
+.playlists{
+    padding: 8px;
+}
+
+.card-container{
+    margin: 15px;
+    display: flex;
+    gap:10px;
+    flex-wrap: wrap;
+}
+.card{
+    width: 150px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #252525;
+    position: relative;
+}
+.card > * {
+    padding-top: 10px;
+}
+.card img{
+    width: 100%;
+    object-fit: contain;
+}
+.play{
+    position: absolute;
+    top: 120px;
+    right: 20px;
+    opacity: 0;
+    transition: all 1s ease-out;
+}
